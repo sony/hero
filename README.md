@@ -6,6 +6,10 @@ This repository officially houses the official PyTorch implementation of the pap
 
 The code will be released soon. Please stay tuned.
 
+## Contacts:
+- Ayano Hiranaka: ayano.hiranaka@gmail.com
+- Shang-Fu Chen: sam145637890@gmail.com
+- Chieh-Hsin Lai: chieh-hsin.lai@sony.com
 
 
 
