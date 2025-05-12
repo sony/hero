@@ -2,7 +2,7 @@
 
 This repository officially houses the official PyTorch implementation of the paper titled "HERO: Human-Feedback-Efficient Reinforcement Learning for Online Diffusion Model Finetuning", which is presented at **ICLR 2025**.
 
-**TL;DR** HERO efficiently fintetunes text-to-image diffusion models with minimal online human feedback (<1K) for various tasks.
+**TL;DR: HERO efficiently fintetunes text-to-image diffusion models with minimal online human feedback (<1K) for various tasks.**
 
 
 - Project Page: https://hero-dm.github.io/
