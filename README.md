@@ -1,7 +1,13 @@
-# HERO - DDPO Trainer
+# [ICLR'25] HERO: Human-Feedback-Efficient Reinforcement Learning for Online Diffusion Model Finetuning
 
-This repository contains implementation for [HERO: Human-Feedback-Efficient Reinforcement Learning for Online Diffusion Model Finetuning.](https://hero-dm.github.io/) (ICLR 2025).
-The main training code is implemented in `train_hero.py`.
+This repository officially houses the official PyTorch implementation of the paper titled "HERO: Human-Feedback-Efficient Reinforcement Learning for Online Diffusion Model Finetuning", which is presented at **ICLR 2025**.
+
+**TL;DR** HERO efficiently fintetunes text-to-image diffusion models with minimal online human feedback (<1K) for various tasks.
+
+
+- Project Page: https://hero-dm.github.io/
+- arXiv: https://arxiv.org/pdf/2410.05116
+- OpenReview: https://openreview.net/forum?id=yMHe9SRvxk
 
 ## Requirements
 
@@ -32,6 +38,9 @@ The main training code is implemented in `train_hero.py`.
 
 ## Training
 
+The main training code is implemented in `train_hero.py`.
+
+
 To start training, use the following command:
 
 ```sh
@@ -61,3 +70,8 @@ Training and model parameters are managed via hydra config files. See the `HERO/
 
 ---
 For more details, please refer to the code and comments in `ddpo_trainer.py`.
+
+## Contacts
+- Ayano Hiranaka: ayano.hiranaka@gmail.com
+- Shang-Fu Chen: sam145637890@gmail.com
+- Chieh-Hsin Lai: chieh-hsin.lai@sony.com
